@@ -1094,7 +1094,7 @@ footer {
     .nav-links {
         position: absolute;
         right: 0;
-        height: 92vh;
+        height: auto;
         top: 8vh;
         background-color: var(--white);
         display: flex;
@@ -1122,6 +1122,7 @@ footer {
 
     .profile-img {
         margin-bottom: 30px;
+        max-width: 100%;
     }
 
     .hero-text {
@@ -1162,6 +1163,10 @@ footer {
 
 .nav-active {
     transform: translateX(0%);
+}
+body {
+    font-size: 16px;
+    padding: 10px;
 }
 
 @keyframes navLinkFade {
